@@ -1,0 +1,95 @@
+2014-01-23 03:42:58 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Applications/MAMP/htdocs/cakecms/Controller/AppController.php, line 27]
+2014-01-23 03:42:58 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakecms/
+Stack Trace:
+#0 /Applications/MAMP/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 27, Array)
+#2 /Applications/MAMP/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 27, Array)
+#3 /Applications/MAMP/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-23 03:43:25 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Applications/MAMP/htdocs/cakecms/Controller/AppController.php, line 15]
+2014-01-23 03:43:25 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakecms/
+Stack Trace:
+#0 /Applications/MAMP/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 15, Array)
+#2 /Applications/MAMP/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 15, Array)
+#3 /Applications/MAMP/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-23 03:45:40 Error: [MissingControllerException] Controller class ViewsController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewsController',
+  'plugin' => NULL,
+)
+Request URL: /cakecms/views
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakecms/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-23 09:37:07 Error: [MissingControllerException] Controller class ViewsController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewsController',
+  'plugin' => NULL,
+)
+Request URL: /cakecms/views
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakecms/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-23 09:37:09 Error: [MissingControllerException] Controller class ViewsController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewsController',
+  'plugin' => NULL,
+)
+Request URL: /cakecms/views
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakecms/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-23 10:32:12 Error: [NotFoundException] Invalid post
+Request URL: /cakecms/posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakecms/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-23 10:36:58 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/Applications/MAMP/htdocs/cakecms/Controller/PostsController.php, line 52]
+2014-01-23 10:36:58 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cakecms/posts/add
+Stack Trace:
+#0 /Applications/MAMP/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 52, Array)
+#2 /Applications/MAMP/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 52, Array)
+#3 /Applications/MAMP/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-23 10:38:11 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/Applications/MAMP/htdocs/cakecms/Controller/PostsController.php, line 52]
+2014-01-23 10:38:11 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cakecms/posts/add
+Stack Trace:
+#0 /Applications/MAMP/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 52, Array)
+#2 /Applications/MAMP/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 52, Array)
+#3 /Applications/MAMP/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-23 10:38:21 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/Applications/MAMP/htdocs/cakecms/Controller/PostsController.php, line 98]
+2014-01-23 10:38:21 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cakecms/posts/delete/3
+Stack Trace:
+#0 /Applications/MAMP/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 98)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 98, Array)
+#2 /Applications/MAMP/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 98, Array)
+#3 /Applications/MAMP/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-23 10:40:17 Error: [NotFoundException] Invalid post
+Request URL: /cakecms/posts/delete/3
+Stack Trace:
+#0 [internal function]: PostsController->delete('3')
+#1 /Applications/MAMP/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakecms/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
